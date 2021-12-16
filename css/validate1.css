@@ -1,0 +1,93 @@
+#samdoh_header {
+margin-left:80px;
+	position: absolute;
+	width: 1000px;
+	height: 135px;
+	top: 0;
+	left: -150px;
+	z-index: 1000;
+	
+}
+a
+{
+color:#FFCC00;
+text-decoration:none;
+}
+#site_title
+{
+position:absolute;
+font-family:monotype corsiva;
+font-size:70px;
+font-weight:500;
+margin:35px 0 0  100px;
+}
+body {
+margin: 0;
+padding: 0;
+color: #fff;
+font-size: 12px;
+line-height: 1.6em; 
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+background-color: #7e7c57;
+background-image:url(../../../../images/slider/08.jpg);
+background-position: top;
+background-repeat: repeat-x;
+}
+form
+{
+position:absolute;
+margin-top: 30px;
+margin-left: 10px;
+width:800px;
+height:300px;
+}
+#formWrap
+{
+background-color:green;
+margin-top: 100px;
+margin-left: 110px;
+width:750px;
+height:400px;
+border: 1px solid #fff;
+padding:20px 10px 40px;
+border-radius:25px;
+box-shadow:4px 4px 6px #000000;
+}
+
+}
+#submit
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+margin-left:300px;
+margin-top:50px;
+width:250px;
+height:50px;
+color:#333300;
+border-radius:10px;
+background-color:#006600;
+color:#FFFFFF;
+font-size:20px;
+position:absolute;
+}
+p
+{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:20px;
+color:#006600;
+padding:0;
+margin-top:0;
+}
+#samdoh_footer
+{
+margin-top: 30px;
+margin-left: 300px;
+width:700px;
+text-align: center;
+}
+
+#samdoh_footer a {
+	position:relative;
+	text-align: center;
+	font-size: 11px;
+	color: #666622;
+}

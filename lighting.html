@@ -1,0 +1,31 @@
+<!-- this script got from www.htmlbestcodes.com-Coded by: Krishna Eydat -->
+<html>
+<head>
+</head>
+<body>
+
+<script language="javascript" type="text/javascript">
+var yourtext="Your Text Here";
+var messLength=yourtext.length;
+var initcolor="black";
+var yourcolor="red";
+var speed=150;
+var i;
+var j=0;
+document.write("<h1><font color='"+initcolor+"'>");
+for (i=0;i<messLength;i++){
+document.write("<span id='yourid"+i+"'>"+yourtext.charAt(i)+"</span>"); }document.write("</font></h1>");
+function colorit(){var idd="yourid"+j;
+if (j<messLength){
+document.getElementById(idd).style.color=yourcolor;j++}
+else {j=0;
+for (i=0;i<messLength;i++){
+var newidd="yourid"+i;
+document.getElementById(newidd).style.color=initcolor; } } }
+function doit(){timer=setInterval("colorit()",speed)}
+window.onload=doit;
+</script>
+
+<br/><div style="clear:both"></div><div><a target="_blank" href="http://www.htmlbestcodes.com/"><span style="font-size: 8pt; text-decoration: none">HTML Best Codes</span></a></div>
+</body>
+</html>

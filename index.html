@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DeTask</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+	<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+	<script type="text/javascript" src="js/init.js"></script>
+	
+	<link rel="stylesheet" href="css/slimbox.css" type="text/css" media="screen" />
+	<script type="text/JavaScript" src="js/slimbox2.js"></script>
+	
+	<link href="css/default.css" rel="stylesheet" type="text/css" />
+	<link href="css/nivo_slider.css" rel="stylesheet" type="text/css" />
+	
+	<div id="samdoh_search">
+
+    <form method="get" action="#">
+        <input id="keyword" class="txt_field" type="text" onblur="clearText(this)" onfocus="clearText(this)" title="keyword" name="keyword" value="Search"></input>
+        <input id="searchbutton" class="sub_btn" type="submit" title="Search" alt="Search" value="" name="Search"></input>
+    </form>
+	
+	</div>
+
+	<link rel="shortcut icon" href="images/DeTask4.png">
+	
+</head>
+
+<body>
+<div id="samdoh_wrapper">
+
+	<div id="samdoh_header">
+	  <div id="site_title"><a href="#" title="DeTask">DeKUT ALUMNI</a></div>
+	
+
+		<a href="loginCategory.html" title="forwallpaper"  class="header"><img src="images/login.png" title="DeTask" alt="forwallpaper" /></a>
+		
+    </div>
+	
+<div id="samdoh_menu">
+    	<ul class="nav_menu">
+            <li><a href="#home" class="home"">Home</a></li>
+            <li><a href="#about" class="about">About</a></li>
+            <li><a href="#services" class="services">Services</a></li>
+            <li><a href="#gallery" class="Alumni portfolio">Alumni</a></li>
+            <li><a href="#contact" class="contact">Contact</a></li>
+        </ul>
+        <ul class="social_button">
+        	<li><a href="https://www.twitter.com"><img src="images/twitter-2.png" alt="Twitter" /></a></li>
+            <li><a href="https://www.facebook.com"><img src="images/flickr.png" alt="Flickr" /></a></li>
+            <li><a href="https://www.skype.com"><img src="images/skype.png" alt="Skype" /></a></li>
+        </ul>
+		
+        <div class="clear h10"></div>
+        <div id="samdoh_footer" marquee> 
+        	<p><marquee><font color="green">Copyright &copy; 2015 <a href="#">DeTask</a> |
+   <a href="#">Graphics and Gallery </a> by <a href="#">Jaldesa Ibrahim Abdi</a> All Rights Reserved.</font></marquee></p>
+  
+        </div>
+        <div class="clear h10"></div>
+    </div>
+	
+<div id="samdoh_main">
+	<div id="content">
+    	<div id="home" class="section">
+        	<div class="slider-wrapper theme-orman">
+            	<div class="ribbon"></div>
+            	<div id="slider" class="nivoSlider">
+            		<img src="images/slider/01.jpg" alt="photo 1" title="kwingahBuses Travellers Nyeri, Kenya" />
+            		<img src="images/slider/02.jpg" alt="photo 2" title="Change your way of travelling" />
+                	<img src="images/slider/03.jpg" alt="photo 3" title="#htmlcaption1" />
+                	<img src="images/slider/04.jpg" alt="photo 4" title="Use kwingahBuses to travel safe" />
+               		<img src="images/slider/05.jpg" alt="photo 5" title="#htmlcaption2" />
+					<img src="images/slider/06.jpg" alt="photo 6" title="Use kwingahBuses to travel safe" />
+					<img src="images/slider/07.jpg" alt="photo 7" title="Change your way of travelling" />
+					<img src="images/slider/08.jpg" alt="photo 8" title="Change your way of travelling" />
+					<img src="images/slider/09.jpg" alt="photo 9" title="Use kwingahBuses to travel safe" />
+					<img src="images/slider/10.jpg" alt="photo 10" title="Use kwingahBuses to travel safe" />
+					<img src="images/slider/11.jpg" alt="photo 11" title="kwingahBuses Travellers Nyeri, Kenya" />
+					<img src="images/slider/12.jpg" alt="photo 12" title="kwingahBuses Travellers Nyeri, Kenya" />
+					<img src="images/slider/13.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/14.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/15.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/16.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/17.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/18.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/19.jpg" alt="photo 13" title="#htmlcaption1" />
+					<img src="images/slider/20.jpg" alt="photo 13" title="#htmlcaption1" />
+    			</div>
+    			<div id="htmlcaption1" class="nivo-html-caption">
+                	Credit goes to <a href="http://dev7studios.com/nivo-slider" target="_blank">kwingah software engineering ltd</a>
+            	</div>
+                <div id="htmlcaption2" class="nivo-html-caption">
+                    Admin <a href="https://www.facebook.com/danned.kwingah">kwingah</a>
+                </div>
+    		</div>
+         </div>
+		 
+		 <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+         <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+         <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider({
+					directionNav: false,
+                    controlNav:false,
+					duration: 800
+                });
+            });
+         </script>
+		 
+         <div class="section section_with_padding" id="about"> 
+        	<div class="h20"></div>
+            <h2>About Us</h2>
+            <div class="half left">
+                <div class="img_border img_fl">
+                    <img src="images/DeTask4.jpg" alt="image" />	
+                </div>
+                <p align="justify"><em>provide the easier way of travelling to the customer or passenger. Electronic tickets, or e-tickets, give evidence that their holders have permission to enter a place of entertainment, use a means of transportation, or have access to some Internet services.  Bus Ticket Booking System enables the bus company's customer to buy bus ticket online. E-ticket is the easier and quickest way to take bus. The online system is a new system because it haven exists in bus company and even in Malaysia</em></p>
+                <p align="justify"></p>	    
+            </div>
+            <div class="half right">
+                 <ul id="social_links">
+                    <li><a href="http://www.facebook.com/danned.kwingah" class="facebook">Facebook</a></li>
+                    
+                    <li><a href="http://www.twitter.com" class="twitter">Twitter</a></li>
+                    <li><a href="http://www.youtube.com" class="youtube">Youtube</a></li>
+                                          
+                </ul>
+            </div>
+			
+            <a href="#home" class="home_btn">home</a> 
+            <a href="#home" class="page_nav_btn previous">Previous</a>
+            <a href="#services" class="page_nav_btn next">Next</a>
+        </div> 
+         
+         
+        <div class="section section_with_padding" id="services"> 
+            <h1>Services</h1>
+            
+            <div class="half left">
+            	<a href="#"><img src="#" alt="image"/></a><br>
+				<a href="#"><img src="#" alt="image"/></a><br>
+				<a href="adminlogin.php"><img src="images/Admin0.png" alt="image"/></a>
+				
+			</div>
+            
+            <div class="half right">
+            	<ul class="list_bullet">
+                    <li></li>
+                    <li></li>
+                    <li><a href="#">Kwingah daniellz</a></li>
+                   <li><a href="#">Kwingahbuses ltd</a></li>
+                  
+                    <li>Matuu, Kenya</li>
+                </ul>
+                
+            </div>
+            
+            <a href="#home" class="home_btn">home</a> 
+            <a href="#about" class="page_nav_btn previous">Previous</a>
+            <a href="#gallery" class="page_nav_btn next">Next</a>
+			<a href="#gallery" class="page_nav_btn previous">Previous</a>
+			<a href="#contact" class="page_nav_btn next">Next</a>			
+        </div>
+            
+         <div class="section" id="gallery"> 
+            <ul id="gallery_wrapper">
+                <li><a href="images/gallery/01-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/01.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/02-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/02.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/03-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/03.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/04-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/04.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/05-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/05.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/06-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/06.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/07-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/07.jpg" alt="image" /></a></li>
+                <li><a href="images/gallery/08-l.jpg" rel="lightbox[gallery]"><img src="images/gallery/08.jpg" alt="image" /></a></li>
+            </ul>
+            <a href="#home" class="home_btn">home</a> 
+            <a href="#services" class="page_nav_btn previous">Previous</a>
+            <a href="#testimonial" class="page_nav_btn next">Next</a>	
+			<a href="#services" class="page_nav_btn previous">previous</a>			
+			<a href="#gallery" class="page_nav_btn next">Next</a>
+        </div> 
+        
+        
+        <div class="section section_with_padding" id="contact"> 
+            <div class="h20"></div>
+            <div class="half left">
+            	<h3>Contact Us</h3>
+				
+				<script>
+					function validateForm()
+					{
+					var n=document.forms["contact"]["author"].value;
+					var m=document.forms["contact"]["text"].value;
+					var x=document.forms["contact"]["email"].value;
+					var atpos=x.indexOf("@");
+					var dotpos=x.lastIndexOf(".");
+					if(x==null || x=="" || atpos<1 || dotpos<atpos+2 || dotpos+2>=x.lenght)
+					{
+					document.getElementById("mss").innerHTML="*Please check your Mail!";
+					return false;
+					}
+					
+					}
+					</script>
+				
+                <div id="contact_form">
+                
+                    <form name="contact" onsubmit="return validateForm()" method="post" action="http://localhost/addmessage.php">
+                    
+                        <div class="left">
+                            <label for="author">Name:</label> <input name="author" type="text" class="input_field" id="author" maxlength="40" />
+                        </div>
+                        
+                        <div class="right">                           
+                            <label for="email">Email:</label> <input name="email" type="text" class="input_field" id="email" maxlength="40" />
+                        </div>
+                        
+                        <div class="clear"></div>
+                        <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0"></textarea>
+                        
+                        <div class="clear"></div>
+                        <input type="submit" class="submit_btn" id="submit" value="Send" />
+                        
+                        <input type="reset" class="submit_btn" id="reset" value="Reset" /><h id="mss" style="color:red;margin-left:20px;font-size:15px;"></h>
+                        
+                    </form>
+					
+                    
+                </div>
+            </div>
+			
+			<div class="half right">
+                <h3>Our Address</h3>
+                We are located in Kimathi near Nyeri town,<br />
+				
+                
+                <div class="clear h10"></div>
+                <div class="img_nom img_border">
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=nyeri&amp;oe=utf-8&amp;client=firefox-a&amp;channel=sb&amp;ie=UTF8&amp;hq=&amp;hnear=Nyeri,+Nyeri+Province,+Kenya&amp;t=m&amp;z=13&amp;ll=-0.416876,36.950981&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=nyeri&amp;oe=utf-8&amp;client=firefox-a&amp;channel=sb&amp;ie=UTF8&amp;hq=&amp;hnear=Nyeri,+Nyeri+Province,+Kenya&amp;t=m&amp;z=13&amp;ll=-0.416876,36.950981&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+				</div>
+            <a href="#home" class="home_btn">home</a> 
+            <a href="#testimonial" class="page_nav_btn previous">Previous</a>
+            <a href="#home" class="page_nav_btn next">Next</a>
+        </div>
+	</div>
+</div>    
+</div>
+</div>
+
+</body>
+</html>
